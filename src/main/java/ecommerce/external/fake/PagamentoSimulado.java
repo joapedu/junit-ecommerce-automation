@@ -12,14 +12,13 @@ public class PagamentoSimulado implements IPagamentoExternal
 	@Override
 	public PagamentoDTO autorizarPagamento(Long clienteId, Double custoTotal)
 	{
-		// TODO Auto-generated method stub
-		return null;
+		return new PagamentoDTO(true, System.currentTimeMillis());
 	}
 
 	@Override
 	public void cancelarPagamento(Long clienteId, Long pagamentoTransacaoId)
 	{
-		// TODO Auto-generated method stub
-
+		// Simula cancelamento
+		System.out.println("Pagamento cancelado: " + pagamentoTransacaoId);
 	}
 }
