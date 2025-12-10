@@ -1,4 +1,4 @@
-# Trabalho 3ª Unidade - Testes de Mutação e Dublês
+# Testes de Mutação e Dublês
 
 **Autores:** João Eduardo e Bruno Augusto
 
